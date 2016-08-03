@@ -1,0 +1,84 @@
+body{
+    opacity:0.8;
+    background-color: #7193e9;
+}
+
+#errorMessage{
+    text-align:center;
+    font-weight:bolder;
+    color: red;
+}
+
+.jumbotron{
+    text-align:center;
+    font-family:'Tillana', cursive;
+    position:fixed;
+    background-image:url(images/banner.jpg);
+    width:105%; /* need to check for a better way to fix this problem */  
+    background-size:cover; 
+    background-repeat:round no-repeat;
+    border-bottom:solid 5px #1f6bfe;
+    z-index:2;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 50px;
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-bottom:30px;
+    position: relative;
+    top: 250px;
+    box-shadow:rgba(0, 0, 0, 0.5) 10px 10px 10px;
+    z-index:1;
+}
+
+.informationBox{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#ButtonEncrypt{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow:rgba(0, 0, 0, 0.5) 6px 6px 6px;
+}
+#ButtonEncrypt:hover{
+box-shadow:rgba(0, 0, 0, 0.5) 2px 2px 2px;
+}
+
+.ROT13Image {
+    left:200px;
+    top:50px;
+    width: 100%;
+    height: auto;
+    margin-bottom:50px;
+    margin-top: 50px;
+    border: double 10px #8fb4fb;
+    box-shadow:rgba(0, 0, 0, .5) 5px 5px 5px;
+}
+
+
+.pquote {
+
+    background: url(images/quotations.png) top left no-repeat;  
+    background-size: 20%;  
+    font-size: 16px;
+    font-style: italic oblique;
+    padding: 10px;
+    color: #000;
+}
+
+/pquote p:first-letter{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#quoteBack{
+   background-color:#e8eeff;
+   padding: 15px;
+   margin: 0px, 25px, 25px, 25px;
+   border-radius: 6px;
+}
+
+
